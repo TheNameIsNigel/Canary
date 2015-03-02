@@ -1,0 +1,433 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FAA3FAA51AA4FC18002A8325 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA3FAA41AA4FC18002A8325 /* main.m */; };
+		FAA3FAA81AA4FC18002A8325 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA3FAA71AA4FC18002A8325 /* AppDelegate.m */; };
+		FAA3FAAB1AA4FC18002A8325 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA3FAAA1AA4FC18002A8325 /* FirstViewController.m */; };
+		FAA3FAAE1AA4FC18002A8325 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA3FAAD1AA4FC18002A8325 /* SecondViewController.m */; };
+		FAA3FAB11AA4FC18002A8325 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAA3FAAF1AA4FC18002A8325 /* Main.storyboard */; };
+		FAA3FAB31AA4FC18002A8325 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FAA3FAB21AA4FC18002A8325 /* Images.xcassets */; };
+		FAA3FAB61AA4FC18002A8325 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FAA3FAB41AA4FC18002A8325 /* LaunchScreen.xib */; };
+		FAA3FAC21AA4FC19002A8325 /* CanaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FAA3FAC11AA4FC19002A8325 /* CanaryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FAA3FABC1AA4FC18002A8325 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FAA3FA971AA4FC18002A8325 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FAA3FA9E1AA4FC18002A8325;
+			remoteInfo = Canary;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FAA3FA9F1AA4FC18002A8325 /* Canary.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Canary.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA3FAA31AA4FC18002A8325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA3FAA41AA4FC18002A8325 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FAA3FAA61AA4FC18002A8325 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FAA3FAA71AA4FC18002A8325 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FAA3FAA91AA4FC18002A8325 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		FAA3FAAA1AA4FC18002A8325 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		FAA3FAAC1AA4FC18002A8325 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		FAA3FAAD1AA4FC18002A8325 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		FAA3FAB01AA4FC18002A8325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FAA3FAB21AA4FC18002A8325 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FAA3FAB51AA4FC18002A8325 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FAA3FABB1AA4FC18002A8325 /* CanaryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CanaryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FAA3FAC01AA4FC19002A8325 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAA3FAC11AA4FC19002A8325 /* CanaryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CanaryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FAA3FA9C1AA4FC18002A8325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA3FAB81AA4FC18002A8325 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FAA3FA961AA4FC18002A8325 = {
+			isa = PBXGroup;
+			children = (
+				FAA3FAA11AA4FC18002A8325 /* Canary */,
+				FAA3FABE1AA4FC18002A8325 /* CanaryTests */,
+				FAA3FAA01AA4FC18002A8325 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FAA3FAA01AA4FC18002A8325 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3FA9F1AA4FC18002A8325 /* Canary.app */,
+				FAA3FABB1AA4FC18002A8325 /* CanaryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FAA3FAA11AA4FC18002A8325 /* Canary */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3FAA61AA4FC18002A8325 /* AppDelegate.h */,
+				FAA3FAA71AA4FC18002A8325 /* AppDelegate.m */,
+				FAA3FAA91AA4FC18002A8325 /* FirstViewController.h */,
+				FAA3FAAA1AA4FC18002A8325 /* FirstViewController.m */,
+				FAA3FAAC1AA4FC18002A8325 /* SecondViewController.h */,
+				FAA3FAAD1AA4FC18002A8325 /* SecondViewController.m */,
+				FAA3FAAF1AA4FC18002A8325 /* Main.storyboard */,
+				FAA3FAB21AA4FC18002A8325 /* Images.xcassets */,
+				FAA3FAB41AA4FC18002A8325 /* LaunchScreen.xib */,
+				FAA3FAA21AA4FC18002A8325 /* Supporting Files */,
+			);
+			path = Canary;
+			sourceTree = "<group>";
+		};
+		FAA3FAA21AA4FC18002A8325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3FAA31AA4FC18002A8325 /* Info.plist */,
+				FAA3FAA41AA4FC18002A8325 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FAA3FABE1AA4FC18002A8325 /* CanaryTests */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3FAC11AA4FC19002A8325 /* CanaryTests.m */,
+				FAA3FABF1AA4FC19002A8325 /* Supporting Files */,
+			);
+			path = CanaryTests;
+			sourceTree = "<group>";
+		};
+		FAA3FABF1AA4FC19002A8325 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FAA3FAC01AA4FC19002A8325 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FAA3FA9E1AA4FC18002A8325 /* Canary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA3FAC51AA4FC19002A8325 /* Build configuration list for PBXNativeTarget "Canary" */;
+			buildPhases = (
+				FAA3FA9B1AA4FC18002A8325 /* Sources */,
+				FAA3FA9C1AA4FC18002A8325 /* Frameworks */,
+				FAA3FA9D1AA4FC18002A8325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Canary;
+			productName = Canary;
+			productReference = FAA3FA9F1AA4FC18002A8325 /* Canary.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FAA3FABA1AA4FC18002A8325 /* CanaryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FAA3FAC81AA4FC19002A8325 /* Build configuration list for PBXNativeTarget "CanaryTests" */;
+			buildPhases = (
+				FAA3FAB71AA4FC18002A8325 /* Sources */,
+				FAA3FAB81AA4FC18002A8325 /* Frameworks */,
+				FAA3FAB91AA4FC18002A8325 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FAA3FABD1AA4FC18002A8325 /* PBXTargetDependency */,
+			);
+			name = CanaryTests;
+			productName = CanaryTests;
+			productReference = FAA3FABB1AA4FC18002A8325 /* CanaryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FAA3FA971AA4FC18002A8325 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Norris Media Solutions, LLC.";
+				TargetAttributes = {
+					FAA3FA9E1AA4FC18002A8325 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FAA3FABA1AA4FC18002A8325 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FAA3FA9E1AA4FC18002A8325;
+					};
+				};
+			};
+			buildConfigurationList = FAA3FA9A1AA4FC18002A8325 /* Build configuration list for PBXProject "Canary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FAA3FA961AA4FC18002A8325;
+			productRefGroup = FAA3FAA01AA4FC18002A8325 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FAA3FA9E1AA4FC18002A8325 /* Canary */,
+				FAA3FABA1AA4FC18002A8325 /* CanaryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FAA3FA9D1AA4FC18002A8325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA3FAB11AA4FC18002A8325 /* Main.storyboard in Resources */,
+				FAA3FAB61AA4FC18002A8325 /* LaunchScreen.xib in Resources */,
+				FAA3FAB31AA4FC18002A8325 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA3FAB91AA4FC18002A8325 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAA3FA9B1AA4FC18002A8325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA3FAAE1AA4FC18002A8325 /* SecondViewController.m in Sources */,
+				FAA3FAA81AA4FC18002A8325 /* AppDelegate.m in Sources */,
+				FAA3FAAB1AA4FC18002A8325 /* FirstViewController.m in Sources */,
+				FAA3FAA51AA4FC18002A8325 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAA3FAB71AA4FC18002A8325 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAA3FAC21AA4FC19002A8325 /* CanaryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FAA3FABD1AA4FC18002A8325 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FAA3FA9E1AA4FC18002A8325 /* Canary */;
+			targetProxy = FAA3FABC1AA4FC18002A8325 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FAA3FAAF1AA4FC18002A8325 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA3FAB01AA4FC18002A8325 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FAA3FAB41AA4FC18002A8325 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FAA3FAB51AA4FC18002A8325 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FAA3FAC31AA4FC19002A8325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FAA3FAC41AA4FC19002A8325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FAA3FAC61AA4FC19002A8325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Canary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FAA3FAC71AA4FC19002A8325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Canary/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FAA3FAC91AA4FC19002A8325 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CanaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canary.app/Canary";
+			};
+			name = Debug;
+		};
+		FAA3FACA1AA4FC19002A8325 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CanaryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Canary.app/Canary";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FAA3FA9A1AA4FC18002A8325 /* Build configuration list for PBXProject "Canary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA3FAC31AA4FC19002A8325 /* Debug */,
+				FAA3FAC41AA4FC19002A8325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FAA3FAC51AA4FC19002A8325 /* Build configuration list for PBXNativeTarget "Canary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA3FAC61AA4FC19002A8325 /* Debug */,
+				FAA3FAC71AA4FC19002A8325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FAA3FAC81AA4FC19002A8325 /* Build configuration list for PBXNativeTarget "CanaryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FAA3FAC91AA4FC19002A8325 /* Debug */,
+				FAA3FACA1AA4FC19002A8325 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FAA3FA971AA4FC18002A8325 /* Project object */;
+}
